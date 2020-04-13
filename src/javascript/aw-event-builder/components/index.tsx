@@ -86,7 +86,7 @@ const HitBuilder: React.FC = () => {
     [event, updateEvent]
   );
 
-  const eventReferenceUrl = `https://developers.google.com/analytics/devguides/collection/protocol/app-web/reference/events?tech=aw_measurement_protocol#${event.getEventName()}`;
+  const eventReferenceUrl = `https://developers.google.com/analytics/devguides/collection/protocol/app-web/reference/events#${event.getEventName()}`;
 
   return (
     <div>
